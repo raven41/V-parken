@@ -1,0 +1,209 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: white;
+  max-width: 100%; }
+
+.background {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  background-color: #e9e9e9; }
+
+/*Mathias har stået for*/
+.glogo {
+  width: 30%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%; }
+
+.navbox {
+  text-align: center;
+  background-color: #1c1c1c;
+  margin-bottom: 8%;
+  font-size: 1em;
+  width: 100%;
+  padding-top: 1.7%;
+  padding-bottom: 1.7%; }
+
+.navbox a:hover {
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: rgba(136, 63, 165, 0.82);
+  text-shadow: 0 0 0.2em black; }
+
+.navbox a {
+  color: white;
+  text-decoration: none;
+  font-family: Corbel, sans-serif;
+  font-weight: bold;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: 110%; }
+
+/*Wolf har stået for*/
+.biggrey {
+  background-color: #e9e9e9;
+  width: 100%;
+  margin-bottom: 5em; }
+
+.greybox {
+  background: #d0d0d0;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  margin-left: 10%;
+  width: 30%;
+  padding-bottom: 1%; }
+
+.greybox1 {
+  background: #d0d0d0;
+  width: 30%;
+  padding-bottom: 0.5%;
+  margin-right: 10%; }
+
+.greybox2 {
+  background: #d0d0d0;
+  margin-top: 2%;
+  margin-left: 10%;
+  width: 30%;
+  padding-bottom: 1%; }
+
+.greybox3 {
+  background: #d0d0d0;
+  margin-top: 1.8%;
+  margin-right: 10%;
+  width: 30%;
+  padding-bottom: 2%; }
+
+.greybox4 {
+  background: #d0d0d0;
+  margin-top: 3%;
+  margin-left: 4.5%;
+  margin-bottom: 5%;
+  padding-bottom: 1%;
+  width: 30%; }
+
+.greybox5 {
+  background: #d0d0d0;
+  margin-right: 4.8%;
+  padding-bottom: 3.5%;
+  margin-bottom: 2%;
+  width: 30%; }
+
+/*.greybox6 {
+  background: $greybox;
+  margin-top: 5%;
+  padding-left: 1em;
+  padding-right: 1.5em;
+  padding-bottom: 2em;
+  width: 20em;
+  margin-bottom: 5%;
+}*/
+/*This box class is for lasse & christina*/
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+/*this box class is for mette & sasha*/
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+/*This box class is for fatiha & lisbeth*/
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+/*This box class is for lotte*/
+/*.box3 {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  margin-left: 10%;
+  width: 20em;
+}*/
+h1 {
+  font-size: 1em;
+  color: rgba(136, 63, 165, 0.82);
+  font-family: Oswald, sans-serif;
+  width: 100%;
+  height: auto;
+  text-align: center; }
+
+h2 {
+  font-size: 1em;
+  color: rgba(136, 63, 165, 0.82);
+  font-family: Corbel, sans-serif;
+  margin-left: 1em;
+  text-align: center; }
+
+.medarbejder {
+  max-width: 100%;
+  border-radius: 6.5%;
+  margin-left: 9%;
+  margin-top: 8%;
+  width: 80%;
+  border: 2px solid grey; }
+
+/*Mathias stået for det her*/
+footer {
+  background-color: #1c1c1c;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding: 45px;
+  margin-top: 80px; }
+
+footer, .links {
+  list-style: none;
+  font-weight: bold;
+  padding: 35px 0 23px;
+  margin: 0; }
+
+.links a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+  font-family: Oswald, sans-serif; }
+
+.navn, .footslogan {
+  color: darkgrey;
+  font-size: 120%;
+  font-family: Corbel, sans-serif; }
+
+@media screen and (max-width: 890px) and (min-width: 660px) {
+  h1 {
+    font-size: 1.5%; }
+
+  h2 {
+    font-size: 1.5%; } }
+@media screen and (max-width: 660px) and (min-width: 420px) {
+  h1 {
+    font-size: 1.5%; }
+
+  h2 {
+    font-size: 1.5%; } }
+@media screen and (max-width: 420px) and (min-width: 360px) {
+  h1 {
+    font-size: 0.5%; }
+
+  h2 {
+    font-size: 0.5%; } }
+@media screen and (max-width: 683px) and (min-width: 497px) {
+  .navbox {
+    font-size: 10px; } }
+@media screen and (max-width: 497px) and (min-width: 360px) {
+  .navbox {
+    font-size: 7px; } }
+
+/*# sourceMappingURL=style1.css.map */

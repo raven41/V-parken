@@ -1,0 +1,27 @@
+@import "primarycolor";
+@import "bgcolor";
+@import "overskrift";
+@import "undertitel";
+@import "greybox";
+@import "navcolor";
+
+h1 {
+font-size:900%;
+color:$primarycolor;
+background-color: $bgcolor;
+font-family:$overskrift;
+}
+h2 {
+  font-size:500%;
+  color:$primarycolor;
+  background-color: $greybox;
+  font-family:$undertitel;
+}
+.navbox
+{
+margin-left: 5%;
+margin-right: 5%;
+width:90%;
+background-color:$navcolor;
+
+}

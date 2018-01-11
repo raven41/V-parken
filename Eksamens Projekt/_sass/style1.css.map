@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAOA,EAAG;EACH,SAAS,EAAC,GAAG;EACb,KAAK,ECTU,wBAAqB;EDUpC,gBAAgB,EEVN,OAAmB;EFW7B,WAAW,EGXK,kBAAkB;;AHclC,EAAG;EACD,SAAS,EAAC,GAAG;EACb,KAAK,EChBQ,wBAAqB;EDiBlC,gBAAgB,EIjBR,OAAmB;EJkB3B,WAAW,EKlBG,kBAAkB",
+"sources": ["style1.scss","_primarycolor.scss","_bgcolor.scss","_overskrift.scss","_greybox.scss","undertitel.scss"],
+"names": [],
+"file": "style1.css"
+}
